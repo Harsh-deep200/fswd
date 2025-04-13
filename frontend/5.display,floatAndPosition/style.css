@@ -1,0 +1,33 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
+.inlinetext {
+  display: inline;
+  /* in inline element margin occupy from online left and right side  */
+  /* but in block elements margin occupy from all the four side of the element */
+  /* and in none display property nothing will be shown on display */
+  margin: 100px;
+  background-color: aqua;
+}
+
+.blocktext {
+  display: block;
+  padding: 10px;
+  margin: 100px;
+  background-color: aqua;
+}
+ul {
+  margin: 100px;
+}
+
+li {
+  display: inline-block;
+  background: lightblue;
+  padding: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}

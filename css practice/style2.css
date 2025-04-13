@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(21, 219, 215, 0.875);
+    border-radius: 20px;
+}
+.inside{
+    width: 70%;
+    height: 100%;
+    background-color: rgba(147, 13, 13, 0.889);
+    border-radius: 20px;
+    margin-left: 0px;
+}
+.paragraph{
+    text-align: center;
+    color: azure;
+    font-size: 32px;
+}
+.outside{
+    margin-top: 20px;
+    text-align: start;
+    width: 400px;
+    line-height: 20px;
+}

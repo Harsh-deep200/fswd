@@ -1,0 +1,11 @@
+.box1{
+    height: 100px;
+    width: calc(100% - 600px);
+    border: 1px red solid;
+}
+
+.box2{
+    border: 2px solid green;
+    width: min(50% , 400px);
+    aspect-ratio: 1/1;
+}

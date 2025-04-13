@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        h1 {
+            color: yellow;
+        }
+    </style> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="background-color: red;">this is heading first</h1>
+
+
+    <p>My text is not red</p>
+    <p>My text is red</p>
+    <p>My text is red</p>
+    <!-- The adjacent sibling (+) combinator selects a sibling element that immediate follows a specified element. -->
+    <hr>
+    <p>My text is not red</p>
+
+    <div class="container">
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Last paragraph</p>
+        <h1>Heading 1</h1>
+        <h2>First heading 2</h2>
+        <h2>Last heading 2</h2>
+    </div>
+
+    <div class="textarea">
+
+    </div>
+
+    <!-- isme do class ka use ho raha he so red wali class mein agar kuch specify karte he vho overwrite kar deta he  -->
+    <div class="box red"></div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+
+    <!-- isme red class child class he box class ki so box ki property red mein fir se specify karni padti he -->
+    <div class="box">
+        <div class="red2">
+            <div class="green2"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 10% 70% 10%;
+    grid-template-rows: 10vh 70vh 10vh; 
+    grid-template-areas: 'hd hd hd'
+                         'nv mn ad'
+                         'ft ft ft';
+    /*border: 1px solid red;*/
+}
+.red{
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}   
+
+.header{
+    grid-area: hd;
+}
+.nav{
+    grid-area: nv;
+}
+
+.main{
+    grid-area: mn;
+}
+
+.adv{
+    grid-area: ad;
+}
+
+.footer{
+    grid-area: ft;
+}

@@ -1,0 +1,24 @@
+.container{
+    border: 1px solid red;
+    display: grid;
+    width: 430px;
+    gap: 10px;
+    background-color: aqua;
+    grid-template-columns: auto auto auto auto;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(78, 78, 210, 0.84);
+}
+
+.redclass{
+    background-color: azure;
+    color: red;
+    font-size: 2rem;
+}
+
+.btn{
+    border: 3px solid rgb(240, 71, 71);
+    /* border-radius: 5px; */
+}

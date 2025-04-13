@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  /* margin: 0px; */
+  font-size: 40px;
+  border: 1px solid black;
+  /* padding: 20px; */
+}
+p + p {
+  color: red;
+}
+/* :last-of-type    Applies when an element is the last of the selected element type inside
+its parent. This may or may not be the last-child. */
+p:last-of-type {
+  background: #c5cae9;
+}
+h1:last-of-type {
+  background: #cddc39;
+}
+.box {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.red {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  /* margin: 20px auto; */
+  /* 40px auto defines top & bottom left & right */
+  /* border-radius: 50%; */
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.red2 {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  margin: 20px auto;
+  /* 40px auto defines top & bottom left & right */
+  border-radius: 50%;
+}
+
+.green2 {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: green;
+  border-radius: 50%;
+}

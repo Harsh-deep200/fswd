@@ -1,0 +1,101 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    z-index: 2;
+    position: relative;
+}
+.box::before{
+    content: 'before';
+    width: 100px;
+    height: 100px;
+    background-color: saddlebrown;
+    position: absolute;
+    bottom: 100px;
+}
+.box::after{
+    content: 'after';
+    width: 100px;
+    height: 100px;
+    background-color: rgba(215, 95, 59, 0.772);
+    position: absolute;
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*p::first-line{
+    font-size: 2rem;
+}
+
+p::first-letter{
+    background-color: grey;
+    font-size: 2rem;
+}
+
+/*.clickMe{
+    font-size: 4rem;
+}
+
+.clickMe:hover{
+    color: brown;
+}
+.clickMe:visited{
+    color: green;
+}
+
+li:first-child{
+    background-color: black;
+    color: red;
+}
+
+li:last-child{
+    background-color: brown;
+    color: bisque;
+}
+/*an +b*/
+/*li:nth-child(4){
+    background-color: brown;
+    color: bisque;
+}
+
+li:nth-child(2n){
+    background-color: brown;
+    color: bisque;
+}
+
+li:nth-child(2n+1){
+    background-color: black;
+    color: bisque;
+}*/

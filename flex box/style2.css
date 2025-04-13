@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 200px;
+  margin: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.box {
+  border: 1px solid red;
+  /*height: 100px;*/
+  width: 70px;
+  flex-grow: 2;
+}
+
+#box3 {
+  order: 1;
+  flex-basis: content;
+  align-self: flex-start;
+}

@@ -1,0 +1,20 @@
+p{
+    color: blue;
+    /*color: transparent ;*/
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(18, 207, 207);
+    text-decoration-thickness: 2px;
+    text-transform: capitalize;
+    /*text-indent: 200px;*/
+    letter-spacing: 2px;
+    /*line-height: 80px;*/
+    word-spacing: 10px;
+    text-shadow: 10px 10px 3px red;
+
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}

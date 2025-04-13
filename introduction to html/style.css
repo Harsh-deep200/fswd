@@ -1,0 +1,26 @@
+/*{
+    border: 30px solid yellow;
+}*/
+img{
+    /*width: 25vw;*/
+   height: 40vh;
+    /* border: 20px dashed red; */
+}
+.red{
+    background-color: rgba(255, 0, 0,0.5);
+}
+.blue{
+    color: rgba(186, 220, 17, 0.8);
+}
+header{
+    font-size: 25px;
+}
+h1{
+    background-color: rgba(0, 99, 169, 0.529);
+    border: 20px rgba(19,87,46,0.7) solid;
+    /*font-size: 5rem;*/
+}
+p,h2{
+    font-size: 25px;
+    color:rgba(186, 220, 17, 0.982);
+}

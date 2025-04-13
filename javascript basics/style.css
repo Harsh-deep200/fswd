@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 430px;
+    background-color: rgb(230, 175, 119);
+    display: grid;
+    grid-template-columns: 100px 100px 100px auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(178, 201, 25);
+    border: 1px solid black;
+}
